@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5ABFEAE72CB17F3800651E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABFEACE2CB17F3600651E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABFEAD52CB17F3600651E55;
+			remoteInfo = ARC_Closures;
+		};
+		5ABFEAF12CB17F3800651E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABFEACE2CB17F3600651E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABFEAD52CB17F3600651E55;
+			remoteInfo = ARC_Closures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ABFEAD62CB17F3600651E55 /* ARC_Closures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARC_Closures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABFEAE62CB17F3800651E55 /* ARC_ClosuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARC_ClosuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABFEAF02CB17F3800651E55 /* ARC_ClosuresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARC_ClosuresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5ABFEAD82CB17F3600651E55 /* ARC_Closures */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ARC_Closures;
+			sourceTree = "<group>";
+		};
+		5ABFEAE92CB17F3800651E55 /* ARC_ClosuresTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ARC_ClosuresTests;
+			sourceTree = "<group>";
+		};
+		5ABFEAF32CB17F3800651E55 /* ARC_ClosuresUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ARC_ClosuresUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABFEAD32CB17F3600651E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABFEAE32CB17F3800651E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABFEAED2CB17F3800651E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABFEACD2CB17F3600651E55 = {
+			isa = PBXGroup;
+			children = (
+				5ABFEAD82CB17F3600651E55 /* ARC_Closures */,
+				5ABFEAE92CB17F3800651E55 /* ARC_ClosuresTests */,
+				5ABFEAF32CB17F3800651E55 /* ARC_ClosuresUITests */,
+				5ABFEAD72CB17F3600651E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ABFEAD72CB17F3600651E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABFEAD62CB17F3600651E55 /* ARC_Closures.app */,
+				5ABFEAE62CB17F3800651E55 /* ARC_ClosuresTests.xctest */,
+				5ABFEAF02CB17F3800651E55 /* ARC_ClosuresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ABFEAD52CB17F3600651E55 /* ARC_Closures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABFEAFA2CB17F3800651E55 /* Build configuration list for PBXNativeTarget "ARC_Closures" */;
+			buildPhases = (
+				5ABFEAD22CB17F3600651E55 /* Sources */,
+				5ABFEAD32CB17F3600651E55 /* Frameworks */,
+				5ABFEAD42CB17F3600651E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5ABFEAD82CB17F3600651E55 /* ARC_Closures */,
+			);
+			name = ARC_Closures;
+			packageProductDependencies = (
+			);
+			productName = ARC_Closures;
+			productReference = 5ABFEAD62CB17F3600651E55 /* ARC_Closures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ABFEAE52CB17F3800651E55 /* ARC_ClosuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABFEAFD2CB17F3800651E55 /* Build configuration list for PBXNativeTarget "ARC_ClosuresTests" */;
+			buildPhases = (
+				5ABFEAE22CB17F3800651E55 /* Sources */,
+				5ABFEAE32CB17F3800651E55 /* Frameworks */,
+				5ABFEAE42CB17F3800651E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABFEAE82CB17F3800651E55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ABFEAE92CB17F3800651E55 /* ARC_ClosuresTests */,
+			);
+			name = ARC_ClosuresTests;
+			packageProductDependencies = (
+			);
+			productName = ARC_ClosuresTests;
+			productReference = 5ABFEAE62CB17F3800651E55 /* ARC_ClosuresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ABFEAEF2CB17F3800651E55 /* ARC_ClosuresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABFEB002CB17F3800651E55 /* Build configuration list for PBXNativeTarget "ARC_ClosuresUITests" */;
+			buildPhases = (
+				5ABFEAEC2CB17F3800651E55 /* Sources */,
+				5ABFEAED2CB17F3800651E55 /* Frameworks */,
+				5ABFEAEE2CB17F3800651E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABFEAF22CB17F3800651E55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ABFEAF32CB17F3800651E55 /* ARC_ClosuresUITests */,
+			);
+			name = ARC_ClosuresUITests;
+			packageProductDependencies = (
+			);
+			productName = ARC_ClosuresUITests;
+			productReference = 5ABFEAF02CB17F3800651E55 /* ARC_ClosuresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ABFEACE2CB17F3600651E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5ABFEAD52CB17F3600651E55 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5ABFEAE52CB17F3800651E55 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5ABFEAD52CB17F3600651E55;
+					};
+					5ABFEAEF2CB17F3800651E55 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5ABFEAD52CB17F3600651E55;
+					};
+				};
+			};
+			buildConfigurationList = 5ABFEAD12CB17F3600651E55 /* Build configuration list for PBXProject "ARC_Closures" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ABFEACD2CB17F3600651E55;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5ABFEAD72CB17F3600651E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ABFEAD52CB17F3600651E55 /* ARC_Closures */,
+				5ABFEAE52CB17F3800651E55 /* ARC_ClosuresTests */,
+				5ABFEAEF2CB17F3800651E55 /* ARC_ClosuresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABFEAD42CB17F3600651E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABFEAE42CB17F3800651E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABFEAEE2CB17F3800651E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABFEAD22CB17F3600651E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABFEAE22CB17F3800651E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABFEAEC2CB17F3800651E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ABFEAE82CB17F3800651E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABFEAD52CB17F3600651E55 /* ARC_Closures */;
+			targetProxy = 5ABFEAE72CB17F3800651E55 /* PBXContainerItemProxy */;
+		};
+		5ABFEAF22CB17F3800651E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABFEAD52CB17F3600651E55 /* ARC_Closures */;
+			targetProxy = 5ABFEAF12CB17F3800651E55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ABFEAF82CB17F3800651E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ABFEAF92CB17F3800651E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABFEAFB2CB17F3800651E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARC_Closures/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARC-Closures.nivedha.ARC-Closures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABFEAFC2CB17F3800651E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARC_Closures/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARC-Closures.nivedha.ARC-Closures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ABFEAFE2CB17F3800651E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARC-Closures.nivedha.ARC-ClosuresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARC_Closures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARC_Closures";
+			};
+			name = Debug;
+		};
+		5ABFEAFF2CB17F3800651E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARC-Closures.nivedha.ARC-ClosuresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARC_Closures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARC_Closures";
+			};
+			name = Release;
+		};
+		5ABFEB012CB17F3800651E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARC-Closures.nivedha.ARC-ClosuresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARC_Closures;
+			};
+			name = Debug;
+		};
+		5ABFEB022CB17F3800651E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARC-Closures.nivedha.ARC-ClosuresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARC_Closures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ABFEAD12CB17F3600651E55 /* Build configuration list for PBXProject "ARC_Closures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABFEAF82CB17F3800651E55 /* Debug */,
+				5ABFEAF92CB17F3800651E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABFEAFA2CB17F3800651E55 /* Build configuration list for PBXNativeTarget "ARC_Closures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABFEAFB2CB17F3800651E55 /* Debug */,
+				5ABFEAFC2CB17F3800651E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABFEAFD2CB17F3800651E55 /* Build configuration list for PBXNativeTarget "ARC_ClosuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABFEAFE2CB17F3800651E55 /* Debug */,
+				5ABFEAFF2CB17F3800651E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABFEB002CB17F3800651E55 /* Build configuration list for PBXNativeTarget "ARC_ClosuresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABFEB012CB17F3800651E55 /* Debug */,
+				5ABFEB022CB17F3800651E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ABFEACE2CB17F3600651E55 /* Project object */;
+}
